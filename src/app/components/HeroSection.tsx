@@ -28,7 +28,14 @@ const HeroSection = () => {
             <span className="font-semibold text-teal-600">user-friendly</span>{" "}
             websites based in Riau, Indonesia.
           </p>
-          <Link
+          <a
+            href="/cv.pdf"
+            download
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 hover:bg-teal-700 hover:cursor-pointer"
+          >
+            Download CV
+          </a>
+          {/* <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 hover:bg-teal-700 hover:cursor-pointer"
             activeClass="active"
@@ -38,7 +45,7 @@ const HeroSection = () => {
             duration={500}
           >
             Projects
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="flex flex-row justify-center">
